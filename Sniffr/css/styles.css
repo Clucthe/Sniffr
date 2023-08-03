@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "sniffr";
+    src: url("sniffr.ttf") format('truetype');
+}
+#title{
+    background-color:rgb(0, 0, 0);
+}
+
+.navbar{
+    padding-right: 1rem;
+    
+}
+.navbar-brand{
+    font-family: "sniffr";
+    margin-left: 1.5%;
+    font-size: 1.5rem;
+}
+
+.container-fluid{
+    padding: 2% 10%;
+}
+
+.classy{
+    padding-left: 10%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.download{
+    margin: 5% 3% 5% 0%;
+}
+#features{
+    padding: 7% 15%;
+    
+}
+.feature-box{
+    text-align: center;
+    padding: 2%;
+}
+h1{
+    font-family: 'Italiana-thin', serif;
+    font-size: 5rem;
+    line-height: 1.5;
+}
+h2{
+    font-size: 3rem;
+    font-family: 'Montserrat-Bold', sans-serif;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: bolder;
+}
+.fa-paw{
+    color:#FFC107ff;
+}
+.fa-bullseye{
+    color:#FFC107ff;
+}
+.fa-heart{
+    
+    color: #FFC107ff;
+}
+.icon{
+    margin-bottom: 2rem;
+}
+.icon:hover{
+    color:#db2222;
+}
+p{
+    color: #B2B3B7ff;
+}
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color:rgb(255, 251, 239) ;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: rgb(228, 224, 212);
+    padding-top: 1%;
+    /* text-align: center; */
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    display:grid;
+}
